@@ -1,4 +1,6 @@
 <?php
+//Script to call googleapi server and fetch geocoded info based on address string
+//Author: R Poggenberg -- 28/04/2019
 
 $address = isset($_GET['address'])? $_GET['address'] : "92 View Street, St Albans, Victoria, 3021";
 $url_address= urlencode($address);
