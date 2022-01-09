@@ -20,7 +20,7 @@ start_date = datetime.datetime.strptime(start_date_string, '%Y-%m-%d')
 spreadsheets=[]
 my_bet=5
 returns = {1:1.8,5:9,7:13,10:18,20:36,25:45,35:63,40:72,50:91,75:135,100:182,150:273,175:319,200:370,250:455,275:500,300:545,500:917}
-SQL_db = MySQLdb.connect(host="localhost", user="root",passwd="gamboa85", db="binary_data") # name of the data base
+SQL_db = MySQLdb.connect(host="localhost", user="####",passwd="#####", db="binary_data") # name of the data base
 cur = SQL_db.cursor()
 print "GMT: "+ strftime("%a, %d %b %Y %H:%M:%S", gmtime())
 print "Startdate: %s" % (start_date_string)
