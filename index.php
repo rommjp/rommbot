@@ -3,7 +3,7 @@
 	$gmt_date=gmdate('Y-m-d', time());
 	$start_date='2019-03-25';
 	$my_robot_name='rommbot';
-	$my_password='gamboa85';
+	$my_password='#####';
 	$table_html="";
 	$r_activeRobots=[];
 	$r_subscribedRobots_end_dates=[];
@@ -84,8 +84,8 @@
 		array_push($activeRobots_display_names,$display_name);
 	}
 	
-	$link = mysqli_connect('localhost', 'root', 'gamboa85', 'binary_data');
-	//$link = mysqli_connect('10.1.1.9', 'rommjp', 'gamboa85', 'binary_data');
+	$link = mysqli_connect('localhost', '#####', '#####', 'binary_data');
+	//$link = mysqli_connect('10.1.1.9', '#####', '#####', 'binary_data');
 
 	if (!$link) {
 		$error = die("Connect Error: " . mysqli_connect_error());
