@@ -18,8 +18,8 @@ import MySQLdb
 my_bet = 5
 base = 380
 returns = {1:1.73,5:8.7,7:12,10:17.3,20:34.6,25:44.6,35:62.7,40:71.6,50:90.6,75:134.6,100:181.6,150:272.6,175:318.6,200:369.6,250:454.6,275:499.6,300:544.6,500:916.6}
-#SQL_db = MySQLdb.connect(host="rommbot.ddns.net", user="rommjp",passwd="gamboa85", db="binary_data") # name of the data base
-SQL_db = MySQLdb.connect(host="localhost", user="root",passwd="gamboa85", db="binary_data") # name of the data base
+#SQL_db = MySQLdb.connect(host="rommbot.ddns.net", user="#####",passwd="#####", db="binary_data") # name of the data base
+SQL_db = MySQLdb.connect(host="localhost", user="#####",passwd="#####", db="binary_data") # name of the data base
 cur = SQL_db.cursor()
 start_date_string = "2018-08-01"
 end_date_string = "2019-12-01"
