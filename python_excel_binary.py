@@ -48,7 +48,7 @@ gmt_date = datetime.datetime.utcnow().date()
 new_robot_name='Target_A'
 my_robot_name='rommbot'
 path= 'C:\\Users\\rommj\\Downloads'
-SQL_db = MySQLdb.connect(host="localhost", user="root",passwd="gamboa85", db="binary_data") # name of the data base
+SQL_db = MySQLdb.connect(host="localhost", user="#####",passwd="#####", db="binary_data") # name of the data base
 cur = SQL_db.cursor()
 
 #Data members for trade4meAPI
