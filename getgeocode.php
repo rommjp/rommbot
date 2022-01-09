@@ -4,7 +4,7 @@
 
 $address = isset($_GET['address'])? $_GET['address'] : "92 View Street, St Albans, Victoria, 3021";
 $url_address= urlencode($address);
-$gmaps_api_key="AIzaSyAND32vUTbl50UMkn8SQMm3ZUXsxOkOIuI";
+$gmaps_api_key="--------";
 $url="https://maps.googleapis.com/maps/api/geocode/json?address={$url_address}&key={$gmaps_api_key}";
 $data_address=array();
 
